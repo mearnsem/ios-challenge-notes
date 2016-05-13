@@ -11,6 +11,10 @@
 		1AFCF6C31CDC050E006D2F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCF6C11CDC050E006D2F3D /* Main.storyboard */; };
 		1AFCF6C51CDC050E006D2F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCF6C41CDC050E006D2F3D /* Assets.xcassets */; };
 		1AFCF6C81CDC050E006D2F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFCF6C61CDC050E006D2F3D /* LaunchScreen.storyboard */; };
+		4014F7231CE625DD00C5B2B5 /* NotesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014F7221CE625DD00C5B2B5 /* NotesListTableViewController.swift */; };
+		4014F7271CE6261100C5B2B5 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014F7261CE6261100C5B2B5 /* Note.swift */; };
+		4014F7291CE6262700C5B2B5 /* NoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014F7281CE6262700C5B2B5 /* NoteController.swift */; };
+		4014F72B1CE6263E00C5B2B5 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4014F72A1CE6263E00C5B2B5 /* NoteDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		1AFCF6C41CDC050E006D2F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AFCF6C71CDC050E006D2F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AFCF6C91CDC050E006D2F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4014F7221CE625DD00C5B2B5 /* NotesListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesListTableViewController.swift; sourceTree = "<group>"; };
+		4014F7261CE6261100C5B2B5 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		4014F7281CE6262700C5B2B5 /* NoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteController.swift; sourceTree = "<group>"; };
+		4014F72A1CE6263E00C5B2B5 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +60,13 @@
 		1AFCF6BC1CDC050E006D2F3D /* Notes */ = {
 			isa = PBXGroup;
 			children = (
-				1AFCF6BD1CDC050E006D2F3D /* AppDelegate.swift */,
 				1AFCF6C11CDC050E006D2F3D /* Main.storyboard */,
+				4014F7261CE6261100C5B2B5 /* Note.swift */,
+				4014F7281CE6262700C5B2B5 /* NoteController.swift */,
+				4014F7221CE625DD00C5B2B5 /* NotesListTableViewController.swift */,
+				4014F72A1CE6263E00C5B2B5 /* NoteDetailViewController.swift */,
 				1AFCF6C41CDC050E006D2F3D /* Assets.xcassets */,
+				1AFCF6BD1CDC050E006D2F3D /* AppDelegate.swift */,
 				1AFCF6C61CDC050E006D2F3D /* LaunchScreen.storyboard */,
 				1AFCF6C91CDC050E006D2F3D /* Info.plist */,
 			);
@@ -133,6 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AFCF6BE1CDC050E006D2F3D /* AppDelegate.swift in Sources */,
+				4014F7231CE625DD00C5B2B5 /* NotesListTableViewController.swift in Sources */,
+				4014F72B1CE6263E00C5B2B5 /* NoteDetailViewController.swift in Sources */,
+				4014F7271CE6261100C5B2B5 /* Note.swift in Sources */,
+				4014F7291CE6262700C5B2B5 /* NoteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +298,7 @@
 				1AFCF6CE1CDC050E006D2F3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
