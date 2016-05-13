@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Notes List Table View Controller-->
+        <!--Notes-->
         <scene sceneID="mQW-bG-R6S">
             <objects>
                 <tableViewController id="jnh-rY-RHf" customClass="NotesListTableViewController" customModule="Notes" customModuleProvider="target" sceneMemberID="viewController">
@@ -48,7 +48,7 @@
                             <outlet property="delegate" destination="jnh-rY-RHf" id="eFy-er-8zc"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="2vT-2b-7cw">
+                    <navigationItem key="navigationItem" title="Notes" id="2vT-2b-7cw">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="MXc-oi-pKZ">
                             <connections>
                                 <action selector="addButtonPressed:" destination="jnh-rY-RHf" id="a32-rE-F4D"/>
