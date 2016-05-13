@@ -16,6 +16,8 @@ class NoteController {
     
     var notes = [Note]()
     
+    
+    
     init() {
         loadPersistentStorage()
     }
@@ -39,7 +41,11 @@ class NoteController {
     }
     
     func removeNote(note: Note) {
-        
+        guard let indexOfNote = notes.indexOf(note) else {
+            return
+        }
+        notes.removeAtIndex(indexOfNote)
+        saveToPersistentStorage(note)
     }
     
     func saveToPersistentStorage(note: Note) {

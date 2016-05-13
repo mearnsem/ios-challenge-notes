@@ -41,7 +41,7 @@ class NoteDetailViewController: UIViewController, UITextViewDelegate, UITextFiel
             guard let bodyTextField = bodyTextField.text else {
                 return
             }
-            let note = Note(bodyTextField: bodyTextField)
+            let note = Note(bodyTextField: bodyTextField, timestamp: NSDate())
             NoteController.sharedController.addNote(note)
         }
         self.navigationController?.popViewControllerAnimated(true)

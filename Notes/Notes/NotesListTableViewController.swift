@@ -38,7 +38,7 @@ class NotesListTableViewController: UITableViewController {
 
         let note = NoteController.sharedController.notes[indexPath.row]
         cell.textLabel?.text = note.bodyTextField
-        
+        cell.detailTextLabel?.text = "DateHere"
 
         return cell
     }
